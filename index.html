@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 홈페이지입니다</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Sunflower:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            border-radius: 5px;
+        }
+        h1, h2 {
+            font-family: 'Sunflower', sans-serif;
+            margin: 0;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #2980b9;
+            margin-bottom: 0.5em;
+        }
+        .content {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+        .links {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>내 홈페이지입니다</h1>
+    </header>
+    
+    <div class="content">
+        <div class="section">
+            <h2>나의 소개</h2>
+            <p>여기에 자기소개를 작성하세요. 당신의 관심사, 취미, 또는 경력에 대해 간단히 설명할 수 있습니다.</p>
+        </div>
+        
+        <div class="section">
+            <h2>내가 좋아하는 동물</h2>
+            <p>여기에 좋아하는 동물에 대해 설명하세요. 왜 그 동물을 좋아하는지, 특별한 점은 무엇인지 등을 적어보세요.</p>
+            <img src="test.jpg" alt="좋아하는 동물 이미지">
+        </div>
+        
+        <div class="links">
+            <a href="https://www.naver.com" target="_blank">네이버 방문하기</a><br>
+            <a href="https://www.google.com" target="_blank">구글 방문하기</a>
+        </div>
+    </div>
+</body>
+</html>
